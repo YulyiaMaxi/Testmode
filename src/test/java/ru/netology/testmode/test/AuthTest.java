@@ -30,7 +30,7 @@ class AuthTest {
         $(".button").click();
         $("h2")
         .shouldBe (visible, Duration.ofSeconds(15))
-        .shouldHave (exactText("Лишный кабинет"));
+        .shouldHave (exactText("Личный кабинет"));
     }
 
     @Test
